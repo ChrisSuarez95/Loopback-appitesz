@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "informacion.json"
+  },
+  "db_mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://root:@localhost/itesz-isc",
+    "database": "itesz-isc",
+    "password": "",
+    "name": "db_mysql",
+    "user": "root",
+    "connector": "mysql"
+  }
+}

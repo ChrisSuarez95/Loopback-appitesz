@@ -1,0 +1,23 @@
+{
+  "name": "maestro",
+  "plural": "maestros",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "noDocente": {
+      "type": "string",
+      "required": true
+    },
+    "nomDocente": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,42 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "alumno": 4,
+    "materia": 3,
+    "maestro": 5,
+    "semestre": 2,
+    "grupo": 4
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "alumno": {
+      "1": "{\"noControl\":\"s001\",\"nombre\":\"christian\",\"id\":1}",
+      "2": "{\"noControl\":\"s002\",\"nombre\":\"yesi\",\"id\":2}",
+      "3": "{\"noControl\":\"s003\",\"nombre\":\"jorge\",\"id\":3}"
+    },
+    "materia": {
+      "1": "{\"id\":1,\"cveMateria\":\"sis001\",\"nomMateria\":\"lenguajes web\"}",
+      "2": "{\"id\":2,\"cveMateria\":\"sis002\",\"nomMateria\":\"redes\"}"
+    },
+    "maestro": {
+      "2": "{\"noDocente\":\"doc001\",\"nomDocente\":\"richar\",\"id\":2}",
+      "3": "{\"noDocente\":\"doc002\",\"nomDocente\":\"rojas\",\"id\":3}",
+      "4": "{\"noDocente\":\"doc003\",\"nomDocente\":\"ana\",\"id\":4}"
+    },
+    "semestre": {
+      "1": "{\"idSemestre\":\"sem001\",\"nomSemestre\":\"PRIMERO\",\"id\":1}"
+    },
+    "grupo": {
+      "2": "{\"idGrupo\":1,\"nomGrupo\":\"B\",\"id\":2}",
+      "3": "{\"idGrupo\":2,\"nomGrupo\":\"C\",\"id\":3}"
+    }
+  }
+}
